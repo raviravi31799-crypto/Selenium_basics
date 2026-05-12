@@ -15,7 +15,7 @@ public class Relativelocators {
 		fname.sendKeys("Jo");
 		WebElement lname=driver.findElement(By.id("Last Name"));
 		lname.sendKeys("Ravi");
-		WebElement password=driver.findElement(with.(By.tagName("input")).below(fname));
+		//WebElement password=driver.findElement(with.(By.tagName("input")).below(fname));
 		}
 
 }

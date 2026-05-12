@@ -24,7 +24,7 @@ public class Table_Dynamic {
 	   List	<WebElement> tabledata=driver.findElements(By.xpath("//table[@id='myTable']//td"));
 		for(WebElement data:tabledata) {
 		System.out.println(data.getText());
-		}
+		}//initially created single column and printed and then added another contact where the table gets sorted by its own and printed the datas.
 		
 
 	}
